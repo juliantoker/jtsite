@@ -14,10 +14,10 @@
   %body
     #outer
       %header
-        %p HEADER
+        = partial 'shared/__header'
       = yield
       %footer
-        %p FOOTER
+        = partial 'shared/__footer'
       %script{ :type => 'text/javascript' }
         window.jQuery || document.write('<script src="js/vendor/jquery-1.8.0.min.js"><\/script>')
       %script{ :type => 'text/javascript', :src => 'js/plugins.js' }

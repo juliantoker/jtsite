@@ -1,0 +1,77 @@
+#outer {
+  width: 1020px;
+  background-color: #FFF;
+  margin: 0 auto;
+  font-family: Helvetica;
+  font-size: 12px;
+  color: #000;
+  header {
+    background: url(../img/header.jpg) no-repeat center top;
+    height: 126px;
+    nav {
+      ul {
+        text-align: center;
+        padding: 30px;
+        padding-top: 260px;
+      }
+      li {
+        display: inline;
+        color: #5568d7;
+        font-size: 2.5em;
+        margin: 100px;
+        padding-left: 10px;
+        border: medium solid #8c8b88;
+        background: white;
+      }
+    }
+  }
+  .content {
+    &.home {
+      h1 {
+        background: url(../img/mainBackground.jpg) no-repeat center top;
+        height: 780px;
+        padding-left: 265px;
+        padding-top: 35px;
+        font-size: 3.5em;
+        color: #FFF;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: black;
+        #picture {
+          background: url(../img/mainImage.gif) no-repeat center top;
+          height: 506px;
+          margin: 125px 0 0 -250px;
+        }
+        small {
+          font-size: 0.5em;
+          color: #000;
+          -webkit-text-stroke-color: white;         
+        }
+      }
+    }
+  }
+  #images {
+    #struct{
+      background: url(../img/footerstructure.gif) no-repeat center top;
+      height: 131px;
+      margin-left: -700px;
+      margin-top: -130px;
+    }
+    #pinkie {
+      background: url(../img/pinkie.gif) no-repeat center top;
+      height: 92px;
+      margin-top: -100px;
+      margin-left: 750px;
+    }
+  }
+  #footer {
+    text-align: center;
+    margin-top: -55px;
+    }
+    a {
+      color: #cf1314;
+      font-style: italic;
+    }
+    p{
+      color: #959595;
+    }
+  }
